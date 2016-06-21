@@ -1,0 +1,358 @@
+/* CSS Items     */
+
+body {
+
+	font-family:Arial;
+}
+
+.css-statement{
+	border: 3px solid black;
+
+}.css-uses{
+	border: 6px solid turquoise;
+	background: ;
+}
+
+/*Nav Bar CSS  */
+
+.nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #f7eee6;
+}
+
+.nav li{
+	float: left;
+}
+
+.nav li a{
+	display: inline-block;
+	color: blue;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+}   
+
+.nav li a:hover{
+
+	background-color:111;
+
+}
+	#circle {
+  width:100px;
+  height:100px;
+  border:2px solid black;
+  border-radius:50px;
+  background:blue;
+  position:absolute;
+  margin:20px 0px 0px 20px;
+}
+
+#square{
+   width: 100px;
+   height:100px;
+   border:2px solid red;
+    position:absolute;
+    margin:20px 0px 0px 150px;
+}
+
+#colorsquare{
+  width: 100px;
+  height:100px;
+  border:2px solid red;
+  position:absolute;
+  margin:20px 0px 0px 300px:
+     
+  }
+#colorsquare{
+  width:0px;
+  height:0px;
+  border-top:40px solid green;
+  border-left:40px solid blue;
+  border-bottom:40px solid red;
+  border-right:40px solid purple;
+  position:absolute;
+  margin:20px 0px 0px 300px;
+}
+    
+  #colortriangle{
+  width:0px;
+  height:0px;
+  border-top:40px solid transparent;
+  border-left:40px solid transparent;
+  border-bottom:80px solid black;
+  border-right:80px solid purple;
+  position:absolute;
+  margin:20px 30px 0px 400px;
+} 
+  
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+}
+#wrapper > .logo {
+  display: inline-block;
+  margin: 20px 300px;
+}
+
+.logo.chrome {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  height: 210px;
+  width: 210px;
+  z-index: 1;
+}
+.logo.chrome .center {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #0d6cac;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #91c1e7), color-stop(100%, #0d6cac));
+  background: -webkit-linear-gradient(top center, #91c1e7, #0d6cac);
+  background: -moz-linear-gradient(top center, #91c1e7, #0d6cac);
+  background: -o-linear-gradient(top center, #91c1e7, #0d6cac);
+  background: linear-gradient(top center, #91c1e7, #0d6cac);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  width: 80px;
+  margin-top: -41px;
+  margin-left: -40px;
+  border-bottom: solid 1px #125e90;
+  z-index: 10;
+}
+.logo.chrome .circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  background: white;
+  top: 50%;
+  left: 50%;
+  height: 94px;
+  width: 94px;
+  margin-top: -48px;
+  margin-left: -47px;
+  z-index: 5;
+}
+.logo.chrome .part-1 {
+  background: #e93c35;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  width: 200px;
+  height: 58px;
+}
+.logo.chrome .part-1:after {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+  content: " ";
+  background: #e93c35;
+  position: absolute;
+  top: 0;
+  left: -91px;
+  width: 200px;
+  height: 58px;
+}
+.logo.chrome .part-2 {
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+  background: #fdd901;
+  position: absolute;
+  top: 131px;
+  left: 56px;
+  width: 200px;
+  height: 65px;
+}
+.logo.chrome .part-2:after {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+  content: " ";
+  background: #fdd901;
+  position: absolute;
+  top: 0;
+  left: -91px;
+  width: 200px;
+  height: 58px;
+}
+.logo.chrome .part-3 {
+  -webkit-transform: rotate(-120deg);
+  -moz-transform: rotate(-120deg);
+  -ms-transform: rotate(-120deg);
+  -o-transform: rotate(-120deg);
+  transform: rotate(-120deg);
+  background: #5bc15b;
+  position: absolute;
+  top: 88px;
+  left: -74px;
+  width: 200px;
+  height: 65px;
+}
+.logo.chrome .part-3:after {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+  content: " ";
+  background: #5bc15b;
+  position: absolute;
+  top: 0;
+  left: -91px;
+  width: 200px;
+  height: 58px;
+}
+#triangle{
+  width: 0px;
+  height: 0px;
+  border-top: 0px solid green;
+  border-left:50px 
+}
+
+
+.inner triangle {
+  top:24px;
+  right:26px;
+  position:relative;
+  width:0;
+  height:0;
+  border-left: 26px solid transparent;
+  border-right:26px solid transparent;
+  border-bottom;60px solid blue;
+  }
+
+.face{
+  width:150px;
+  height:150px; 
+  border:solid 2px black;
+  background-color: yellow; 
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 800px;
+ 
+}
+
+.lefteye{
+  width:10px;
+  height:10px;
+  border:solid 1px black;
+  border-radius:3px;
+  position:relative;
+  left:32px;
+  top: 26px;
+  background-color:black
+}
+
+#inner-left{
+  width:0px;
+  height:0px;
+  border:solid 1px white;
+  border-radius:2px;
+  position:relative;
+  left:2px;
+  top: 2px;
+  background-color:white
+}
+
+.righteye{
+  width:6px;
+  height:6px; 
+  border:solid 1px black;
+  border-radius:3px;
+  z-index:1;
+  position:relative;
+  left:54px;
+  top:18px;
+  background-color:black
+}
+
+#inner-right {
+  width:0px;
+  height:0px; 
+  border:solid 1px white;
+  border-radius:3px;
+  z-index:1;
+  position:relative;
+  left:2px;
+  top:2px;
+  background-color:white
+  
+}
+.mouth {
+  width:50px;
+  height:80px; 
+  border:solid 1px black;
+  border-radius:0px 0px 45px 45px; /*Adjust this to change expression*/
+  margin:16px;
+  position:relative;
+  top:1em;
+  left:1em;
+  background-color:black
+}
+
+#left-brow{
+  width:20px;
+  height:10px;
+  background-color:black;
+  position:relative;
+  margin: -20px 0px 0px -5px;
+  border-radius:5px 0px 5px;
+  margin-right:45px: 
+}
+
+#right-brow{
+  width:0px;
+  height:13px;
+  background-color:red;
+  position:rekative;
+  margin: -14px 30px -16px -20px;
+  border-radius:5px 0px 5px;
+  margin-right:45px: 
+}
+
+#bullets {
+	border: 2px black;
+}
+
+.projects {
+padding:50px;
+
+
+}
+
+#my-age{
+  color:blue;
+}
